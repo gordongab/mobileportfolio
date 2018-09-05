@@ -1,0 +1,222 @@
+body {
+    background-image: url("assets/bckgrnd.png");
+    background-repeat: repeat;
+
+}
+
+main {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 200px 20px 200px 20px;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+#gabe-pic
+{   
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+#github {
+    
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    }
+
+#overflow {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+        }
+
+        
+#linkedin {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+            }
+
+            
+#email {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+                }
+            
+
+.footer {
+    border-top-color: #FFFFFF;
+    background-color: #969696;
+    color: white;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    padding-left: 50px;
+}
+
+.footer p {
+    align-content: center;
+}
+
+
+.header1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    
+        }
+
+
+.secondhalf {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white; 
+}
+
+h3 {
+    color: white;
+    display: inline;
+    padding-left: 20px;    
+}
+
+.par {
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.thirdhalf {
+    background-color: #969696;
+    opacity: 60%;
+    padding-top: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1.5px;
+    background-image: repeat;
+}
+
+
+
+#gabe {
+    background-image: url("assets/gabe.jpg");
+    border-color: #2c5fa8;
+    border-image: 3px;
+}
+
+#sample1{
+    width: 300px;
+    height: 200;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    }
+
+
+#sample2{
+    width: 300px;
+    height: 200;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+#sample3{
+    width: 300px;
+    height: 200;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.secondhalf {
+    background-color: #969696;
+    opacity: 60%
+}
+
+
+@media only screen and (min-width: 700px) {
+
+main {
+        height: 100%;
+        display: grid;
+        grid-template-rows: 50px 150px 10px 150px;
+        grid-template-columns: 1fr auto;
+        grid-gap: 10px;
+    }
+
+#gabe-pic
+    {
+        position: absolute;
+        padding-left: 1050px;
+        padding-top: 380px;
+    }
+
+   
+#github {
+    position: relative;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    }
+
+#overflow {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    }
+
+        
+#linkedin {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    }
+
+            
+#email {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    }
+    
+
+.par{
+    grid-column: span 1;
+}
+
+
+
+#sample1{
+    width: 250px;
+    height: 200;
+    padding-left: 200px;
+    padding-bottom: 70px;
+    }
+
+
+#sample2{
+    width: 250px;
+    height: 200;
+    position: relative;
+    padding-bottom: 70px;
+}
+
+#sample3{
+    width: 250px;
+    height: 200;
+    padding-left: 30px;
+    padding-bottom: 70px;
+}
+
+.footer {
+    padding-left: 500px;
+}
+
+
+}
